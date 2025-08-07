@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!-- Removed ProgressIndicator import -->
+
+<AnchorPane fx:id="root" prefHeight="522.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo6.HelloController">
+
+    <Button fx:id="resetButton" layoutX="69.0" layoutY="387.0" onAction="#handleReset" prefHeight="85.0" prefWidth="186.0" style="-fx-border-color: black;" text="Reset">
+      <font>
+         <Font name="System Bold Italic" size="20.0" />
+      </font></Button>
+    <!-- ProgressBar removed as requested -->
+    <TextField fx:id="timerField1" alignment="CENTER" layoutX="266.0" layoutY="182.0" onAction="#handleNextInput" prefHeight="140.0" prefWidth="140.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-background-radius: 70; -fx-border-radius: 70; -fx-font-size: 24px; -fx-text-fill: black; -fx-font-family: monospace;" />
+
+    <Button fx:id="editButton" contentDisplay="CENTER" layoutX="419.0" layoutY="386.0" onAction="#handleEditDurations" prefHeight="86.0" prefWidth="186.0" style="-fx-border-color: black;" text="Customize Duration of Work/Break" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+      <font>
+         <Font name="System Bold Italic" size="15.0" />
+      </font></Button>
+
+    <Button fx:id="startPauseButton" layoutX="301.0" layoutY="405.0" onAction="#handleStartPause" prefHeight="50.0" prefWidth="70.0" style="-fx-background-radius: 25; -fx-border-radius: 25; -fx-border-color: black;" text="-|-" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font></Button>
+
+    <Label fx:id="timerLabel" layoutX="281.0" layoutY="230.0" style="-fx-font-size: 36px; -fx-font-family: monospace;" text="25:00" />
+    <Label fx:id="modeLabel11" layoutX="215.0" layoutY="477.0" prefHeight="30.0" prefWidth="260.0" style="-fx-background-color: Transparent; -fx-font-size: 18px;" text="WORK SMARTER, NOT HARDER">
+      <font>
+         <Font name="System Bold Italic" size="12.0" />
+      </font></Label>
+   <Button fx:id="workButton" alignment="CENTER" contentDisplay="CENTER" layoutX="95.0" layoutY="96.0" minHeight="30.0" minWidth="105.0" onAction="#handleWork" prefHeight="43.0" prefWidth="150.0" style="-fx-border-color: black;" text="Work" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+   </Button>
+    <Button fx:id="shortBreakButton" alignment="CENTER" layoutX="255.0" layoutY="96.0" minHeight="30.0" minWidth="105.0" onAction="#handleShortBreak" prefHeight="43.0" prefWidth="150.0" style="-fx-font-size: 18px; -fx-border-color: black;" text="Short break" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+    </Button>
+    <Button fx:id="longBreakButton" alignment="CENTER" layoutX="419.0" layoutY="96.0" minHeight="30.0" minWidth="105.0" onAction="#handleLongBreak" prefHeight="43.0" prefWidth="150.0" style="-fx-font-size: 18px; -fx-border-color: black;" text="Long break" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold" size="18.0" />
+      </font>
+    </Button>
+   <Button fx:id="modebutton" mnemonicParsing="false" onAction="#toggleTheme" prefHeight="58.0" prefWidth="170.0" text="Dark Mode">
+      <font>
+         <Font size="24.0" />
+      </font></Button>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="227.0" layoutY="22.0" prefHeight="58.0" prefWidth="120.0" styleClass="white-label" text="YONDORU">
+      <font>
+         <Font name="Book Antiqua" size="21.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="347.0" layoutY="22.0" prefHeight="58.0" prefWidth="86.0" styleClass="black-label" text="四ドル">
+      <font>
+         <Font name="Book Antiqua" size="21.0" />
+      </font>
+   </Label>
+
+
+
+
+</AnchorPane>

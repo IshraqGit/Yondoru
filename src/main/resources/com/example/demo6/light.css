@@ -1,0 +1,35 @@
+/* Ensure the first word is white and the second (Japanese) word is black */
+.white-label {
+    -fx-text-fill: white;
+}
+.black-label {
+    -fx-text-fill: black;
+}
+/* Ensure all text is white in Light mode */
+root, .root, .label, .text, .button, .list-cell, .table-cell {
+    -fx-text-fill: black;
+}
+.white-label {
+    -fx-text-fill: white !important;
+}
+.black-label {
+    -fx-text-fill: black !important;
+}
+.black-label {
+    -fx-text-fill: black !important;
+}
+.root {
+    -fx-background-image: url("light.jpg");
+    -fx-background-size: cover;
+    -fx-text-fill: white;
+    /* other light mode styles */
+}
+#modeLabel11, .modeLabel11 {
+    -fx-text-fill: white;
+}
+#modebutton, #resetButton, #startPauseButton, #editButton, #workButton, #shortBreakButton, #longBreakButton {
+    -fx-background-color: #bdbdbd;
+}
+#timerField1, .timerField1 {
+    -fx-background-color: white;
+}

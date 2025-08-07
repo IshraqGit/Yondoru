@@ -1,0 +1,21 @@
+.root {
+    -fx-background-image: url("dark.jpg");
+    -fx-background-size: cover;
+    -fx-text-fill: white;
+    /* other dark mode styles */
+}
+.label {
+    -fx-text-fill: #FFFFFF;
+}
+#timerLabel{
+    -fx-text-fill: #000000;
+}
+#workButton, #shortBreakButton, #longBreakButton, .workButton, .shortBreakButton, .longBreakButton {
+    -fx-text-fill: white;
+}
+#modebutton, #resetButton, #startPauseButton, #editButton, #workButton, #shortBreakButton, #longBreakButton {
+    -fx-background-color: #616161;
+}
+#timerField1, .timerField1 {
+    -fx-background-color: #616161;
+}+
