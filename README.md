@@ -1,57 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yondoru — Pomodoro Timer Application</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #222;
-        }
-        h1, h2, h3, h4 {
-            color: #333;
-        }
-        code, pre {
-            background: #f4f4f4;
-            padding: 5px;
-            border-radius: 4px;
-            font-family: Consolas, monospace;
-        }
-        pre {
-            overflow-x: auto;
-            padding: 10px;
-        }
-        img {
-            max-width: 100%;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        ul, ol {
-            margin-left: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        hr {
-            margin: 40px 0;
-        }
-    </style>
-</head>
-<body>
-
 <h1><strong>Yondoru — Pomodoro Timer Application</strong></h1>
 <p>Yondoru is a <strong>Pomodoro timer application</strong> designed to help users <em>efficiently manage their work and break intervals</em>. 
 With a simple and intuitive interface, Yondoru lets you <strong>start, pause, and reset timers</strong>, customize durations for work sessions and breaks, and even <strong>switch between light and dark themes</strong> to suit your preference.</p>
 
 <hr>
 
-<h2>🚀 Features</h2>
+<h2>Features:</h2>
 <ul>
     <li>Simple <strong>Start / Pause / Reset</strong> timer controls</li>
     <li>Customizable <strong>work and break durations</strong></li>
@@ -64,34 +17,25 @@ With a simple and intuitive interface, Yondoru lets you <strong>start, pause, an
 <hr>
 
 <h2>🖼️ Visual Overview</h2>
-<p><img src="screenshots/ss1.png" alt="Yondoru Main Screen"><br>
-<em>Main Timer Screen (Dark Theme)</em></p>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/ss1.png" alt="Yondoru Main Screen (Light Theme)" width="300"><br>
+      <em>Main Timer Screen (Light Theme)</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/ss3.png" alt="Yondoru Main Screen (Dark Theme)" width="300"><br>
+      <em>Main Timer Screen (Dark Theme)</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/ss2.png" alt="Yondoru Alarm Timer Screen" width="300"><br>
+      <em>Alarm Timer</em>
+    </td>
+  </tr>
+</table>
 
 <hr>
-
-<h3>📊 Architecture Flowchart</h3>
-<pre>
-```mermaid
-flowchart TD
-  A0["Application Entry Point"]
-  A1["User Interface Definition (FXML)"]
-  A2["UI Controller Logic"]
-  A3["Pomodoro Timer Core Logic"]
-  A4["Application Styling (CSS)"]
-  A5["Maven Build System"]
-
-  A0 -- "Loads" --> A1
-  A0 -- "Applies Initial" --> A4
-  A1 -- "Defines Controller" --> A2
-  A2 -- "Manages Elements" --> A1
-  A2 -- "Implements" --> A3
-  A2 -- "Switches Styles" --> A4
-  A3 -- "Updates UI" --> A2
-  A5 -- "Builds" --> A0
-  A5 -- "Packages Resources" --> A1
-  A5 -- "Compiles Code" --> A2
-  A5 -- "Packages Resources" --> A4
-
 
   </pre> <hr> <h2>📂 File Structure</h2> 
    <pre>
