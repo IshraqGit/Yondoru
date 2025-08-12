@@ -74,8 +74,7 @@ With a simple and intuitive interface, Yondoru lets you <strong>start, pause, an
 <li>Run the application:
 <pre><code>mvn javafx:run</code></pre></li>
 
-
-</ol> <h3>Customizing Timer Durations</h3> <p>Currently, customization through the UI settings panel is <strong>planned</strong>.<br> To change durations now, edit the <strong>default values in the controller code</strong>.</p> <hr> <h2>🛠️ Contributing</h2> <p>Contributions are welcome!</p> <strong>Steps to contribute:</strong> <ol> <li>Fork the repo</li> <li>Create a new branch: <pre><code>git checkout -b feature-name</code></pre></li>
+</p> <hr> <h2>🛠️ Contributing</h2> <p>Contributions are welcome!</p> <strong>Steps to contribute:</strong> <ol> <li>Fork the repo</li> <li>Create a new branch: <pre><code>git checkout -b feature-name</code></pre></li>
 
 <li>Commit your changes:
 <pre><code>git commit -m "Add some feature"</code></pre></li>
@@ -86,4 +85,4 @@ With a simple and intuitive interface, Yondoru lets you <strong>start, pause, an
 <li>Open a pull request</li>
 
 
-</ol> <hr> <h2>📄 License</h2> <p>This project is licensed under the <strong>MIT License</strong>. See the <code>LICENSE</code> file for details.</p> </body> </html> ```
+</ol> <hr> <h2>📄 License</h2> <p>This project is licensed under the <strong>MIT License</strong>. See the <code>LICENSE</code> file for details.</p> </body> </html> 
