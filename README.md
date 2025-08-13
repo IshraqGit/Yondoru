@@ -86,3 +86,5 @@ With a simple and intuitive interface, Yondoru lets you <strong>start, pause, an
 
 
 </ol> <hr> <h2>📄 License</h2> <p>This project is licensed under the <strong>MIT License</strong>. See the <code>LICENSE</code> file for details.</p> </body> </html> 
+
+<p>© 2025 Farhan Ishraq — <code>IshraqGit/Yondoru-</p>
